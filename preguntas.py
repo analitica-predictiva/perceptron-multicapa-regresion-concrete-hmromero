@@ -32,6 +32,8 @@ def pregunta_01():
     return X, y
 
 
+
+
 def pregunta_02():
     """
     Preparación del dataset.
@@ -54,6 +56,8 @@ def pregunta_02():
 
     # Retorne `X_train`, `X_test`, `y_train` y `y_test`
     return x_train, x_test, y_train, y_test
+
+
 
 
 def pregunta_03():
@@ -85,6 +89,7 @@ def pregunta_03():
 
     # Retorne el pipeline
     return pipeline
+
 
 
 def pregunta_04():
@@ -165,6 +170,4 @@ def pregunta_05():
     # Retorne el mse de entrenamiento y prueba
     return mse_train, mse_test
 
-mse_train, mse_test = pregunta_05()
-print(mse_train)
-print(mse_test)
+
